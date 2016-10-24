@@ -16,7 +16,9 @@ public:
     ~MainWindow();
 
     void createStatusBar();
-    void
+    void createToolBar();
+    void createMenuBar();
+    void StatusBarText(QString);
 
 private:
     Ui::MainWindow *ui;
